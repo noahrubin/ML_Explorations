@@ -9,6 +9,7 @@
 
 # Import image read function, png & jpeg libs
 source("~/Documents/7StanfordML/Explorations/Imread.R");
+# Import K-means algorithm (see K_Means.R for code)
 source("~/Documents/7StanfordML/Explorations/K_Means.R");
 # Set up environment
 wd = "/Users/noahrubin1/Pictures/";
