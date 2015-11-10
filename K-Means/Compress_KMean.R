@@ -8,9 +8,9 @@
 ######################################################################
 
 # Import image read function, png & jpeg libs
-source("~/Documents/7StanfordML/Explorations/Imread.R");
+source("~/Documents/7StanfordML/ML_Explorations/K-Means/Imread.R");
 # Import K-means algorithm (see K_Means.R for code)
-source("~/Documents/7StanfordML/Explorations/K_Means.R");
+source("~/Documents/7StanfordML/ML_Explorations/K-Means/K_Means.R");
 # Set up environment
 wd = "/Users/noahrubin1/Pictures/";
 imagePath = "EwxWGyt.jpg";
@@ -32,7 +32,7 @@ X = matrix(A, nrow=img_size[1]*img_size[2], ncol=img_size[3]);
 
 ################################ Part 2 ##############################
 # Set K-means parameters
-K = 5;
+K = 3;
 iterations = 10;
 # Run K-means for given parameters
 centroids = kMeans(X, K, iterations);
